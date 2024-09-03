@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222831; /* Dark gray text */
+    background-color: #EEEEEE; /* Light gray background */
+}
+
+/* Header Styles */
+header {
+    background: #222831; /* Dark gray header background */
+    color: #EEEEEE; /* Light gray text */
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0; /* Increased margin for better spacing */
+}
+
+.btn {
+    background-color: #00ADB5; /* Bright cyan button */
+    color: #222831; /* Dark gray text */
+    padding: 15px 25px; /* Increased padding for a larger button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Added margin to increase space above the button */
+}
+
+.btn:hover {
+    background-color: #007a7a; /* Slightly darker cyan for hover effect */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #00ADB5; /* Bright cyan for section headers */
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.project-card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #222831; /* Dark gray for project card titles */
+}
+
+.project-card p {
+    color: #393E46; /* Medium gray text */
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #00ADB5; /* Bright cyan for links */
+    transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+    color: #007a7a; /* Slightly darker cyan for link hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background: #222831; /* Dark gray footer background */
+    color: #EEEEEE; /* Light gray text */
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #00ADB5; /* Bright cyan for footer links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007a7a; /* Slightly darker cyan for hover effect */
+}
